@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usman Aamir</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Usman Aamir</div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="theme-toggle" onclick="toggleTheme()">
+        <img
+          src="images/sun.svg"
+          id="light-mode-icon"
+          class="theme-icon hidden"
+          alt="Light Mode"
+        />
+        <img
+          src="images/moon.svg"
+          id="dark-mode-icon"
+          class="theme-icon"
+          alt="Dark Mode"
+        />
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <a href="images/usman.jpg" target="_blank">
+        <img src="images/usman.jpg" alt="My Image" class="hero-img" />
+      </a>
+
+      <h1>Building with code,<br />creating with passion!</h1>
+      <p>
+        An engineer of digital solutions, transforming challenges into
+        opportunities.
+      </p>
+      <div>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="#" class="btn btn-secondary">Download Resume</a>
+      </div>
+
+      <div class="social-links">
+        <a href="mailto:usmanaamirbs2022@gmail.com" target="_blank"
+          ><img src="images/email.svg" alt="Email"
+        /></a>
+        <a href="https://github.com/UsmanAamir01" target="_blank"
+          ><img src="images/github.svg" alt="GitHub"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/muhammadusmanaamir/r"
+          target="_blank"
+          ><img src="images/linkedin.svg" alt="LinkedIn"
+        /></a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="section-title">
+        Services
+        <img
+          src="images/services.png"
+          alt="Services Icon"
+          class="section-icon"
+        />
+      </h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="images/web-dev.jpg" alt="Web Development" />
+          <h3 class="service-heading">Web Development</h3>
+          <p>Building responsive and high-performance websites.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/app-dev.jpg" alt="App Development" />
+          <h3 class="service-heading">App Development</h3>
+          <p>Creating mobile applications for iOS and Android.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/ui-ux-design.png" alt="UI/UX Design" />
+          <h3 class="service-heading">UI/UX Design</h3>
+          <p>Designing intuitive and user-friendly interfaces.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/software-testing.jpeg" alt="Software Testing" />
+          <h3 class="service-heading">Software Testing</h3>
+          <p>Ensuring software quality with automated and manual testing.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/web-scraping.png" alt="Web Scraping" />
+          <h3 class="service-heading">Web Scraping</h3>
+          <p>Extracting valuable data from websites efficiently.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/projectmanagement.png" alt="Project Management" />
+          <h3 class="service-heading">Project Management</h3>
+          <p>Managing and delivering projects with Agile methodologies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="section-title">
+        Experience
+        <img
+          src="images/experience.png"
+          alt="Experience Icon"
+          class="section-icon"
+        />
+      </h2>
+      <div class="experience-list">
+        <div class="experience-item">
+          <img src="images/aiesec.png" alt="AIESEC" />
+          <div class="experience-details">
+            <h3>AIESEC</h3>
+            <p>1 yr 5 mos | Hybrid</p>
+            <div class="role">
+              <h4>Team Member - Member Experience</h4>
+              <p>Sep 2024 - Present | 6 mos</p>
+              <p>
+                <strong>Skills:</strong> Member Relations, Talent Management,
+                Engagement
+              </p>
+            </div>
+            <div class="role">
+              <h4>Team Leader - Marketing and Public Relations</h4>
+              <p>Mar 2024 - Sep 2024 | 7 mos</p>
+              <p>
+                <strong>Skills:</strong> Leadership Development, Team
+                Leadership, Organizational Leadership, Team Building
+              </p>
+            </div>
+            <div class="role">
+              <h4>Team Member - Marketing and Public Relations</h4>
+              <p>Oct 2023 - Mar 2024 | 6 mos</p>
+              <p>
+                <strong>Skills:</strong> Digital Marketing, Marketing Strategy,
+                Social Media Marketing, Product Marketing
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <img src="images/growintern.jpeg" alt="GrowIntern" />
+          <div class="experience-details">
+            <h3>GrowIntern - Internship</h3>
+            <p>Jul 2024 - Aug 2024 | 2 mos | Remote</p>
+            <p>
+              <strong>Skills:</strong> HTML, CSS, JavaScript, Web Development
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <img src="images/prodigyinfotech.jpeg" alt="Prodigy InfoTech" />
+          <div class="experience-details">
+            <h3>Prodigy InfoTech - Internship</h3>
+            <p>Jun 2024 - Jul 2024 | 2 mos | Remote</p>
+            <p>
+              <strong>Skills:</strong> Web Development, HTML, CSS, JavaScript
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="section-title">
+        Projects
+        <img
+          src="images/projects.png"
+          alt="Projects Icon"
+          class="section-icon"
+        />
+      </h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img
+            src="images/multilingual-dictionary.jpg"
+            alt="Multilingual Dictionary"
+          />
+          <h3>Multilingual Dictionary</h3>
+          <p>
+            Arabic to Urdu & Arabic to Persian dictionary using various
+            technologies.
+          </p>
+          <div class="tools1">
+            <span>Java</span> <span>JSoup</span> <span>Swing</span>
+            <span>XAMPP</span> <span>JUnit</span> <span>SQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/ecommerce.jpg" alt="E-Commerce Store for Men" />
+          <h3>E-Commerce Store for Men</h3>
+          <p>
+            Built with C#, Windows Forms, .NET, and Oracle for a seamless
+            shopping experience.
+          </p>
+          <div class="tools2">
+            <span>C#</span> <span>.NET</span> <span>Windows Forms</span>
+            <span>Oracle</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/chand-tara.jpg" alt="Chand Tara - Baby Store" />
+          <h3>Chand Tara - Baby Store</h3>
+          <p>
+            Designed using HTML5, CSS3, JavaScript, and Figma for a visually
+            appealing baby store.
+          </p>
+          <div class="tools3">
+            <span>HTML5</span> <span>CSS3</span> <span>JavaScript</span>
+            <span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="languages" id="languages">
+      <h2 class="section-title">
+        Languages
+        <img
+          src="images/languages.png"
+          alt="Languages Icon"
+          class="section-icon"
+        />
+      </h2>
+      <div class="languages-grid">
+        <div class="language-item">
+          <img src="images/python.png" alt="Python" />
+          <span class="language-name">Python</span>
+        </div>
+        <div class="language-item">
+          <img src="images/java.png" alt="Java" />
+          <span class="language-name">Java</span>
+        </div>
+        <div class="language-item">
+          <img src="images/C++.svg" alt="C++" />
+          <span class="language-name">C++</span>
+        </div>
+        <div class="language-item">
+          <img src="images/CSharp.svg" alt="C#" />
+          <span class="language-name">C#</span>
+        </div>
+        <div class="language-item">
+          <img src="images/html5.png" alt="HTML5" />
+          <span class="language-name">HTML5</span>
+        </div>
+        <div class="language-item">
+          <img src="images/css3.png" alt="CSS3" />
+          <span class="language-name">CSS3</span>
+        </div>
+        <div class="language-item">
+          <img src="images/js.png" alt="JavaScript" />
+          <span class="language-name">JavaScript</span>
+        </div>
+        <div class="language-item">
+          <img src="images/sql.svg" alt="SQL" />
+          <span class="language-name">SQL</span>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section class="tools" id="tools">
+      <h2 class="section-title">
+        Tools
+        <img src="images/tools.png" alt="Tools Icon" class="section-icon" />
+      </h2>
+
+      <div class="tools-grid">
+        <div class="tool-item">
+          <img src="images/selenium.png" alt="Selenium" />
+          <span class="tool-name">Selenium</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/git.png" alt="Git" />
+          <span class="tool-name">Git</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/figma.png" alt="Figma" />
+          <span class="tool-name">Figma</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/vscode.png" alt="VS Code" />
+          <span class="tool-name">VS Code</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/eclipse.png" alt="Eclipse" />
+          <span class="tool-name">Eclipse</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/oracle.svg" alt="Oracle" />
+          <span class="tool-name">Oracle</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/monday.svg" alt="Monday" />
+          <span class="tool-name">Monday</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/jira.svg" alt="Jira" />
+          <span class="tool-name">Jira</span>
+        </div>
+        <div class="tool-item">
+          <img src="images/mssql.svg" alt="Microsoft SQL Server" />
+          <span class="tool-name">Microsoft SQL Server</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+      <h2 class="section-title">
+        Certificates
+        <img
+          src="images/certificates.png"
+          alt="Certificates Icon"
+          class="section-icon"
+        />
+      </h2>
+
+      <div class="certificates-grid">
+        <div class="certificate-item">
+          <img src="images/coursera.svg" alt="Agile Project Management" />
+          <div class="certificate-details">
+            <h3 class="certificate-name">Agile Project Management</h3>
+            <p class="certificate-platform">Coursera</p>
+            <p class="certificate-date">Issued Jan 2025</p>
+            <p class="certificate-skills">
+              Skills: Project Management, Agile Methodologies
+            </p>
+            <a
+              href="certificates/Agile Project Management.pdf"
+              target="_blank"
+              class="certificate-link"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+
+        <div class="certificate-item">
+          <img
+            src="images/coursera.svg"
+            alt="Software Processes and Agile Practices"
+          />
+          <div class="certificate-details">
+            <h3 class="certificate-name">
+              Software Processes and Agile Practices
+            </h3>
+            <p class="certificate-platform">Coursera</p>
+            <p class="certificate-date">Issued May 2023</p>
+            <p class="certificate-skills">Skills: Agile Methodologies</p>
+            <a
+              href="certificates/Software and agile practices.pdf"
+              target="_blank"
+              class="certificate-link"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+
+        <div class="certificate-item">
+          <img src="images/coursera.svg" alt="AI For Everyone" />
+          <div class="certificate-details">
+            <h3 class="certificate-name">AI For Everyone</h3>
+            <p class="certificate-platform">Coursera</p>
+            <p class="certificate-date">Issued Jun 2023</p>
+            <p class="certificate-skills">Skills: AI, ML, Data Science</p>
+            <a
+              href="certificates/AI For Everyone.pdf"
+              target="_blank"
+              class="certificate-link"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+
+        <div class="certificate-item">
+          <img
+            src="images/coursera.svg"
+            alt="Facebook, Instagram, and Snapchat Marketing"
+          />
+          <div class="certificate-details">
+            <h3 class="certificate-name">
+              Facebook, Instagram, and Snapchat Marketing
+            </h3>
+            <p class="certificate-platform">Coursera</p>
+            <p class="certificate-date">Issued Jun 2023</p>
+            <p class="certificate-skills">
+              Skills: Marketing, Digital Marketing, Online Marketing, E-Commerce
+            </p>
+            <a
+              href="certificates/Facebook, Instagram, and Snapchat Marketing.pdf"
+              target="_blank"
+              class="certificate-link"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+
+        <div class="certificate-item">
+          <img src="images/great_learning.jpg" alt="Big Data and AI" />
+          <div class="certificate-details">
+            <h3 class="certificate-name">Big Data and AI</h3>
+            <p class="certificate-platform">Great Learning</p>
+            <p class="certificate-date">Issued Nov 2023</p>
+            <p class="certificate-skills">Skills: Big Data, AI</p>
+            <a
+              href="certificates/big data and AI.pdf"
+              target="_blank"
+              class="certificate-link"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">
+        Contact
+        <img src="images/contact.png" alt="Contact Icon" class="section-icon" />
+      </h2>
+      <p id="cta"><b>Interested in working together? Let's talk!</b></p>
+
+      <form
+        action="https://formspree.io/f/myzkjznn"
+        method="POST"
+        class="contact-form"
+        id="contactForm"
+      >
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your full name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email address"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Write your message here"
+          ></textarea>
+        </div>
+
+        <button type="submit" id="sendMessageBtn" class="btn">
+          Send Message
+        </button>
+        <br />
+      </form>
+
+      <p id="rights">
+        <b>
+          &copy; 2025 All Rights Reserved. <br />
+          Usman Aamir | Created Using HTML, CSS & JS. Deployed using Github
+          Pages.
+        </b>
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
